@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DBB947C15EC37C50061C7F8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBB947B15EC37C50061C7F8 /* Cocoa.framework */; };
+		4DBB947E15EC37C50061C7F8 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBB947D15EC37C50061C7F8 /* MacRuby.framework */; };
+		4DBB948715EC37C50061C7F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DBB948515EC37C50061C7F8 /* InfoPlist.strings */; };
+		4DBB948915EC37C50061C7F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB948815EC37C50061C7F8 /* main.m */; };
+		4DBB948E15EC37C50061C7F8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DBB948C15EC37C50061C7F8 /* MainMenu.xib */; };
+		4DBB949115EC37C50061C7F8 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4DBB949015EC37C50061C7F8 /* rb_main.rb */; };
+		4DBB949315EC37C50061C7F8 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4DBB949215EC37C50061C7F8 /* AppDelegate.rb */; };
+		4DBB949E15EC37DA0061C7F8 /* MainWindowController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4DBB949D15EC37DA0061C7F8 /* MainWindowController.rb */; };
+		4DBB94A015EC37F90061C7F8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DBB949F15EC37F90061C7F8 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DBB948015EC37C50061C7F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DBB946E15EC37C50061C7F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DBB947615EC37C50061C7F8;
+			remoteInfo = CuteJSON;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DBB947715EC37C50061C7F8 /* CuteJSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CuteJSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DBB947B15EC37C50061C7F8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4DBB947D15EC37C50061C7F8 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		4DBB948415EC37C50061C7F8 /* CuteJSON-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CuteJSON-Info.plist"; sourceTree = "<group>"; };
+		4DBB948615EC37C50061C7F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4DBB948815EC37C50061C7F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DBB948A15EC37C50061C7F8 /* CuteJSON-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CuteJSON-Prefix.pch"; sourceTree = "<group>"; };
+		4DBB948D15EC37C50061C7F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4DBB949015EC37C50061C7F8 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		4DBB949215EC37C50061C7F8 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		4DBB949D15EC37DA0061C7F8 /* MainWindowController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MainWindowController.rb; sourceTree = "<group>"; };
+		4DBB949F15EC37F90061C7F8 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DBB947415EC37C50061C7F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DBB947C15EC37C50061C7F8 /* Cocoa.framework in Frameworks */,
+				4DBB947E15EC37C50061C7F8 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DBB946C15EC37C50061C7F8 = {
+			isa = PBXGroup;
+			children = (
+				4DBB948215EC37C50061C7F8 /* CuteJSON */,
+				4DBB947A15EC37C50061C7F8 /* Frameworks */,
+				4DBB947815EC37C50061C7F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DBB947815EC37C50061C7F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DBB947715EC37C50061C7F8 /* CuteJSON.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DBB947A15EC37C50061C7F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DBB947B15EC37C50061C7F8 /* Cocoa.framework */,
+				4DBB947D15EC37C50061C7F8 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DBB948215EC37C50061C7F8 /* CuteJSON */ = {
+			isa = PBXGroup;
+			children = (
+				4DBB949C15EC37CC0061C7F8 /* MainWindow */,
+				4DBB949215EC37C50061C7F8 /* AppDelegate.rb */,
+				4DBB948B15EC37C50061C7F8 /* Resources */,
+				4DBB948F15EC37C50061C7F8 /* Other Sources */,
+				4DBB948315EC37C50061C7F8 /* Supporting Files */,
+			);
+			path = CuteJSON;
+			sourceTree = "<group>";
+		};
+		4DBB948315EC37C50061C7F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DBB948415EC37C50061C7F8 /* CuteJSON-Info.plist */,
+				4DBB948515EC37C50061C7F8 /* InfoPlist.strings */,
+				4DBB948815EC37C50061C7F8 /* main.m */,
+				4DBB948A15EC37C50061C7F8 /* CuteJSON-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DBB948B15EC37C50061C7F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4DBB948C15EC37C50061C7F8 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4DBB948F15EC37C50061C7F8 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4DBB949015EC37C50061C7F8 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		4DBB949C15EC37CC0061C7F8 /* MainWindow */ = {
+			isa = PBXGroup;
+			children = (
+				4DBB949D15EC37DA0061C7F8 /* MainWindowController.rb */,
+				4DBB949F15EC37F90061C7F8 /* MainWindow.xib */,
+			);
+			name = MainWindow;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		4DBB947F15EC37C50061C7F8 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 4DBB949915EC37C50061C7F8 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				4DBB948115EC37C50061C7F8 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		4DBB947615EC37C50061C7F8 /* CuteJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DBB949615EC37C50061C7F8 /* Build configuration list for PBXNativeTarget "CuteJSON" */;
+			buildPhases = (
+				4DBB947315EC37C50061C7F8 /* Sources */,
+				4DBB947415EC37C50061C7F8 /* Frameworks */,
+				4DBB947515EC37C50061C7F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CuteJSON;
+			productName = CuteJSON;
+			productReference = 4DBB947715EC37C50061C7F8 /* CuteJSON.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DBB946E15EC37C50061C7F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Marcos Villacampa";
+			};
+			buildConfigurationList = 4DBB947115EC37C50061C7F8 /* Build configuration list for PBXProject "CuteJSON" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4DBB946C15EC37C50061C7F8;
+			productRefGroup = 4DBB947815EC37C50061C7F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DBB947615EC37C50061C7F8 /* CuteJSON */,
+				4DBB947F15EC37C50061C7F8 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DBB947515EC37C50061C7F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DBB948715EC37C50061C7F8 /* InfoPlist.strings in Resources */,
+				4DBB948E15EC37C50061C7F8 /* MainMenu.xib in Resources */,
+				4DBB949115EC37C50061C7F8 /* rb_main.rb in Resources */,
+				4DBB949315EC37C50061C7F8 /* AppDelegate.rb in Resources */,
+				4DBB949E15EC37DA0061C7F8 /* MainWindowController.rb in Resources */,
+				4DBB94A015EC37F90061C7F8 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DBB947315EC37C50061C7F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DBB948915EC37C50061C7F8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DBB948115EC37C50061C7F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DBB947615EC37C50061C7F8 /* CuteJSON */;
+			targetProxy = 4DBB948015EC37C50061C7F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DBB948515EC37C50061C7F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DBB948615EC37C50061C7F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4DBB948C15EC37C50061C7F8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DBB948D15EC37C50061C7F8 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DBB949415EC37C50061C7F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4DBB949515EC37C50061C7F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4DBB949715EC37C50061C7F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode45-DP4.app/Contents/Developer/Library/Frameworks\"",
+					/Library/Frameworks,
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CuteJSON/CuteJSON-Prefix.pch";
+				INFOPLIST_FILE = "CuteJSON/CuteJSON-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4DBB949815EC37C50061C7F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode45-DP4.app/Contents/Developer/Library/Frameworks\"",
+					/Library/Frameworks,
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CuteJSON/CuteJSON-Prefix.pch";
+				INFOPLIST_FILE = "CuteJSON/CuteJSON-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4DBB949A15EC37C50061C7F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		4DBB949B15EC37C50061C7F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DBB947115EC37C50061C7F8 /* Build configuration list for PBXProject "CuteJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DBB949415EC37C50061C7F8 /* Debug */,
+				4DBB949515EC37C50061C7F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DBB949615EC37C50061C7F8 /* Build configuration list for PBXNativeTarget "CuteJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DBB949715EC37C50061C7F8 /* Debug */,
+				4DBB949815EC37C50061C7F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4DBB949915EC37C50061C7F8 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DBB949A15EC37C50061C7F8 /* Debug */,
+				4DBB949B15EC37C50061C7F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DBB946E15EC37C50061C7F8 /* Project object */;
+}
